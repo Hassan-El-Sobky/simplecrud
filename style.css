@@ -1,0 +1,127 @@
+body
+{
+    font-family: 'Baloo Da 2', cursive;
+    background-image: url('ec.jpg');
+    color: white;
+}
+.our
+{
+    text-align: center;
+    padding-bottom: 20px;
+}
+.our h1
+{
+    position: relative;
+}
+.our h1::before
+{
+    content: "";
+    width: 35%;
+    height: 2px;
+    background-color: tomato;
+    position: absolute;
+    left: 0;
+    top: 25px;
+}
+.our h1::after
+{
+    content: "";
+    width: 35%;
+    height: 2px;
+    background-color: tomato;
+    position: absolute;
+    right: 0;
+    top: 25px;
+}
+@media(max-width:1200px)
+{
+    .our h1
+{
+    position: relative;
+}
+.our h1::before
+{
+    content: "";
+    width: 25%;
+    height: 2px;
+    background-color: tomato;
+    position: absolute;
+    left: 0;
+    top: 25px;
+}
+.our h1::after
+{
+    content: "";
+    width: 25%;
+    height: 2px;
+    background-color: tomato;
+    position: absolute;
+    right: 0;
+    top: 25px;
+}
+}
+
+
+@media(max-width:800px)
+{
+    .our h1
+{
+    position: relative;
+}
+.our h1::before
+{
+    content: "";
+    width: 15%;
+    height: 2px;
+    background-color: tomato;
+    position: absolute;
+    left: 0;
+    top: 25px;
+}
+.our h1::after
+{
+    content: "";
+    width: 15%;
+    height: 2px;
+    background-color: tomato;
+    position: absolute;
+    right: 0;
+    top: 25px;
+}
+}
+
+
+.pro
+{
+    position: relative;
+    margin-bottom: 20px;
+}
+.price
+{
+
+    background-color: yellow;
+    font-weight: 600;
+    position: absolute;
+    top: 0;
+    right:50px;
+    padding: 10px;
+    color: black;
+
+}
+
+.footer
+{
+    text-align: center;
+    color: white;
+    height: 200px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+label
+{
+    padding: 10px;
+    background-color:rgba(44,54,25, 0.2);
+    border: 1px solid white;
+}

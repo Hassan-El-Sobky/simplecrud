@@ -1,0 +1,71 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Da+2&display=swap" rel="stylesheet">
+  </head>
+  <body>
+ 
+  <div class="container py-5">
+    <div class="our">
+
+      <h1>Our Products</h1>
+
+    </div>
+    <input onkeyup="searchProduct(this.value)" class="form-control w-25" placeholder="Search">
+
+        <div id="productRow" class="row py-5">
+      <div class="col-lg-4 col-md-12 pro">
+   
+        <img class="img-fluid" src="my-product.png">
+        <h4>name<span class="badge badge-primary mx-5">Category</span></h4>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio rem cumque unde placeat maiores praesentium excepturi pariatur perspiciatis corporis earum. Culpa dolores eaque nostrum praesentium nisi labore asperiores debitis provident!</p>
+           <div class="price">Price</div>  
+      </div>
+
+
+    </div>
+
+  </div>
+
+  <div class="container py-5">
+    <div class="our">
+
+      <h1>ADD Products</h1>
+
+    </div>
+    <div class="form-group">
+      <label>ProductName:</label>
+      <input onkeyup="validationName(this.value)" id="productName" type="text" class="form-control">
+    </div>
+  
+    <div class="form-group">
+      <label>ProductPrice:</label>
+      <input id="productPrice" type="number" class="form-control">
+    </div>
+    <div class="form-group">
+      <label>ProductCategory:</label>
+      <input id="productCategory" type="text" class="form-control">
+    </div>
+    <div class="form-group">
+      <label>ProductDescription:</label>
+      <textarea id="productD" type="text" class="form-control"></textarea>
+    </div>
+    <button id="addBtn" onclick="addpro()" type="submit" class="btn btn-primary">Submit</button>
+</div>
+
+<div class="footer">
+
+  <p>© Copyright Hassan El-Sobky</p>
+</div>
+
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<script src="main.js"></script>
+  </body>  
+</html>
